@@ -1,0 +1,7 @@
+User-Agent: *
+Disallow: 
+Disallow: /cuestionario/
+Disallow: /cuestionario_response
+Disallow: /cotizacion_response
+
+Sitemap: https://www.jomarautoglass.com/sitemap.xml

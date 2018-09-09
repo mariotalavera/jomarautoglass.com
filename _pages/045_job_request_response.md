@@ -1,0 +1,12 @@
+---
+exclude: true
+layout: page
+title: Jomar - Gracias por su información
+permalink: /cotizacion_response/
+metadescription: Jomar Auto Glass. Respuesta de cotizacion.
+---
+
+Pronto nos comunicaremos con usted.
+
+No se le olvide, también nos puede llamar al <a href="tel:{{ site.phones-link }}" title="{{ site.phones }}">{{ site.phones }}</a> o escribir a <a href="mailto:{{ site.email }}">{{ site.email }}</a> con cualquier pregunta.
+

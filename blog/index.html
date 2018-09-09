@@ -1,0 +1,31 @@
+---
+layout: default
+metadescription: Cristales de carros a domicilio sirviendo Puerto Rico y Vieques. Servicio en Canovanas, Ceiba, Fajardo, Humacao, Juncos, Loiza, Luquillo, Rio Grande, Bayamon, Carolina, Isla Verde, Guaynabo, San Juan, Trujillo Alto.
+---
+
+<h2>Jomar - Noticias</h2>
+{% for post in site.posts %}
+		<time>
+			{% assign m = post.date | date: "%-m" %}
+			{{ post.date | date: "%-d" }} de 
+			{% case m %}
+			  {% when '1' %}enero
+			  {% when '2' %}febrero
+			  {% when '3' %}marzo
+			  {% when '4' %}abril
+			  {% when '5' %}mayo
+			  {% when '6' %}junio
+			  {% when '7' %}julio
+			  {% when '8' %}agosto
+			  {% when '9' %}septiembre
+			  {% when '10' %}octubre
+			  {% when '11' %}noviembre
+			  {% when '12' %}diciembre
+			{% endcase %} del 
+			{{ post.date | date: "%Y" }}
+		</time>
+
+		<h3><a href="{{ post.url | prepend: site.baseurl }}" title="{{ post.title }}">{{ post.title }}</a></h3>
+{% endfor %}
+
+<p>Suscríbase por <a href="{{ "/feed.xml" | prepend: site.baseurl }}" title="RSS">RSS</a></p>

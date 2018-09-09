@@ -1,0 +1,27 @@
+<footer>
+	{% if page.title != 'Privacy' %}
+	<div class="row">
+	  <div class="column left">
+	    <p>
+	    	<b>{{ site.title | replace: ', Puerto Rico - Cristales De Carros',''}}</b> <br/>
+	    	{{ site.address }}
+	    </p>
+	  </div>
+	  <div class="column middle">
+	    <p>
+	    	{{ site.description }} <br/>
+	    	<a href="{{ site.baseurl }}/privacy/index.html" title="Privacy Policy">Privacy Policy</a>
+	    </p>
+	  </div>
+	  <div class="column right">
+	    <p>
+	    	<b>Contacto</b> <br/>
+			<a href="mailto:{{ site.email }}" title="Enviar correo a {{ site.email }}">{{ site.email }}</a>  <br/>
+	    	<a href="tel:{{ site.phones-link }}" title="Llamarnos a {{ site.phones }}">{{ site.phones }}</a> <br/> <br/>
+	    	<a href="https://www.instagram.com/jomarautoglass/" target="_blank"><img src="{{ "/assets/share/instagram.svg" | prepend: site.baseurl }}" height="42" width="42" alt="Buscanos en Instagram" title="Buscanos en Instagram"></a>
+	    	<a href="https://www.facebook.com/jomarautoglass" target="_blank"><img src="{{ "/assets/share/facebook.svg" | prepend: site.baseurl }}" height="42" width="42" alt="Buscanos en Facebook" title="Buscanos en Facebook"></a>
+	    </p>
+	  </div>
+	</div>
+	{% endif %}
+</footer>

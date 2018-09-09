@@ -1,0 +1,32 @@
+---
+layout: default
+title: Jomar Auto Glass
+---
+
+<h2>{{ page.title }}</h2>
+<time>
+<!-- {{ page.date | date: "%b %-d, %Y" }} -->
+
+<!-- Whitespace added for readability -->
+{% assign m = page.date | date: "%-m" %}
+{{ page.date | date: "%-d" }} de 
+{% case m %}
+  {% when '1' %}enero
+  {% when '2' %}febrero
+  {% when '3' %}marzo
+  {% when '4' %}abril
+  {% when '5' %}mayo
+  {% when '6' %}junio
+  {% when '7' %}julio
+  {% when '8' %}agosto
+  {% when '9' %}septiembre
+  {% when '10' %}octubre
+  {% when '11' %}noviembre
+  {% when '12' %}diciembre
+{% endcase %} del 
+{{ page.date | date: "%Y" }}
+
+
+{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</time>
+
+{{ content }}

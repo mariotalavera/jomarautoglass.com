@@ -1,0 +1,27 @@
+title: Jomar Auto Glass, Puerto Rico - Cristales De Carros
+email: info@jomarautoglass.com
+phones: (787) 210-4094 # <br/> (787) 225-2504
+phones-link: 787-210-4094
+address: P.O. Box 481 <br/> Carolina, PR 00986-0481
+description: >- # this means to ignore newlines until "baseurl:"
+  Cristaleros de autos expertos en Puerto Rico con mejor servicio, reputacion y calidad. <br/> Con servicio en toda la isla, Vieques y Culebra.
+
+metadescription: Cristales de carros a domicilio sirviendo Puerto Rico y Vieques. Servicio en Canovanas, Ceiba, Fajardo, Humacao, Juncos, Loiza, Luquillo, Rio Grande, Bayamon, Carolina, Isla Verde, Guaynabo, San Juan, Trujillo Alto.
+
+metakeywords: Jomar, Jomar Auto Glass, cristales de carros, cristales de autos, instalación de cristales, carolina, area este, auto glass 
+
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://www.jomarautoglass.com" # the base hostname & protocol for your site, e.g. http://example.com
+
+# twitter_username: mayin
+# github_username:  mariotalavera
+
+# Build settings
+sass:
+  sass_dir: _sass
+include: ['_pages']
+kramdown:
+  input: GFM
+theme: minima
+plugins:
+  - jekyll-feed
