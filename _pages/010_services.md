@@ -14,9 +14,9 @@ metadescription: Jomar Auto Glass ofrece servicio de cambio de cristales en Puer
     </p>
   </div>
   <div class="multicol">
-    <h3><a href="{{ site.baseurl }}/servicios_domicilio/index.html" title="Servicio A Domicilio y Talleres">Servicio A Domicilio y Talleres</a></h3>
+    <h3><a href="{{ site.baseurl }}/news/2018/09/09/servicio-a-domicilio.html" title="Servicio A Domicilio">Servicio A Domicilio</a></h3>
     <p>
-      <a href="{{ site.baseurl }}/servicios_domicilio/index.html" title="Servicio A Domicilio y Talleres"><img src="/assets/pictures/workpic-8.png" alt="Jomar Auto Glass - Servicio A Domicilio" width="300" height="200"></a><br/>
+      <a href="{{ site.baseurl }}/news/2018/09/09/servicio-a-domicilio.html" title="Servicio A Domicilio"><img src="/assets/pictures/workpic-8.png" alt="Jomar Auto Glass - Servicio A Domicilio" width="300" height="200"></a><br/>
       Jomar llega a usted.  Servicio en su hogar.
     </p>
   </div>
