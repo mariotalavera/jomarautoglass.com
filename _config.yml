@@ -6,9 +6,9 @@ address: P.O. Box 481 <br/> Carolina, PR 00986-0481
 description: >- # this means to ignore newlines until "baseurl:"
   Cristaleros de autos expertos en Puerto Rico con mejor servicio, reputacion y calidad. <br/> Con servicio en toda la isla, Vieques y Culebra.
 
-metadescription: Cristales de carros a domicilio sirviendo Puerto Rico y Vieques. Servicio en Canovanas, Ceiba, Fajardo, Humacao, Juncos, Loiza, Luquillo, Rio Grande, Bayamon, Carolina, Isla Verde, Guaynabo, San Juan, Trujillo Alto.
+metadescription: Cristales de carros a domicilio sirviendo Puerto Rico y Vieques. Servicio en Canovanas, Fajardo, Loiza, Luquillo, Rio Grande, Bayamon, Carolina, Isla Verde, Guaynabo, San Juan, Trujillo Alto.
 
-metakeywords: Jomar, Jomar Auto Glass, cristales de carros, cristales de autos, instalación de cristales, carolina, area este, auto glass 
+metakeywords: Jomar, Jomar Auto Glass, cristales de carros, cristales de autos, instalación de cristales, carolina, area este, vieques
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.jomarautoglass.com" # the base hostname & protocol for your site, e.g. http://example.com

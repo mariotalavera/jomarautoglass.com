@@ -73,7 +73,7 @@ metadescription: Jomar Auto Glass. Llene este formulario para recibir precio y c
 			&nbsp; &nbsp; &nbsp; (Explique abajo)<br>
 		</div>
 		<div class="column"><br/>
-			<img src="/assets/pictures/carritocondetallescristales_1.png" alt="Carrito De Cristales">
+			<img src="/assets/pictures/carritocondetallescristales_1.png" alt="Carrito De Cristales" title="Carrito De Cristales">
 		</div>
 	</div>
 	<div><br/>

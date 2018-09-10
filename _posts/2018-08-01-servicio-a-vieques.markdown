@@ -19,4 +19,4 @@ Solo llámenos o llene formulario. Rápido nos pondremos en contacto.
 
 -- Jomar
 
-<img src="/assets/pictures/vieques-arbol.png" alt="Vieques Arbol" border="1">
+<img src="/assets/pictures/vieques-arbol.png" alt="Vieques Arbol" title="Vieques Arbol" border="1">

@@ -8,7 +8,7 @@ metadescription: Jomar Auto Glass ofrece servicio a domicilio.  Con los mejores 
 
 Jomar Auto Glass les ofrece servicio a domicilio.  Jomar Auto Glass le reemplaza su cristal roto en su hogar.  Para su conveniencia, Jomar Auto Glass también lo visita a su trabajo y le cambia el cristal roto mientras usted trabaja.
 
-<img src="/assets/pictures/a-domicilio.png" alt="Servicio A Domicilio" border="1">
+<img src="/assets/pictures/a-domicilio.png" alt="Servicio A Domicilio" title="Servicio A Domicilio" border="1">
 
 Nada más llame al <a href="tel:{{ site.phones-link }}" title="{{ site.phones }}">{{ site.phones }}</a>, o escribanos <a href="{{ site.baseurl }}/cotizacion/index.html" title="Formulario">aquí</a>, para obtener precio de su cristal a domicilio y hacer cita rápida.  Nosotros nos encargamos de el resto.
 
