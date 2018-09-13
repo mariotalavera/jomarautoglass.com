@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Jomar - Noticias
+title: Jomar Auto Glass - Noticias
 permalink: /blog/
 metadescription:
 ---

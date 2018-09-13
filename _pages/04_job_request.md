@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Jomar - Cotización De Trabajo
+title: Jomar Auto Glass - Cotización De Trabajo
 permalink: /cotizacion/
 metadescription: Jomar Auto Glass. Llene este formulario para recibir precio y cita para su cambio de cristal de carro.
 ---

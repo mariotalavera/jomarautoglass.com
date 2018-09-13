@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Jomar - Servicio A Domicilio"
+title:  "Jomar Auto Glass - Servicio A Domicilio"
 date:   2018-09-09 00:00:00 -0500
 categories: News
 metadescription: Jomar Auto Glass ofrece servicio a domicilio.  Con los mejores precios, servicio garantizado a domicilio.

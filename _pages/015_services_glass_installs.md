@@ -1,7 +1,7 @@
 ---
 exclude: true
 layout: page
-title: Jomar - Instalación De Cristales
+title: Jomar Auto Glass - Instalación De Cristales
 permalink: /servicios_instalacion_cristales/
 metadescription: Jomar Auto Glass ofrece servicio de cambio de cristales en Puerto Rico y Vieques. Con los mejores precios, servicio garantizado a domicilio.
 ---

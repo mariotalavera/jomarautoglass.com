@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Jomar - Acerca De Nosotros
+title: Jomar Auto Glass - Acerca De Nosotros
 permalink: /nosotros/
 metadescription: Jomar Auto Glass es una cristalería de carros en Puerto Rico con mas de 30 años de experiencia. Los mejores precios y el mejor servicio garantizado. Reemplazo de cristal para todo carro europeo, americano, japones o coreano.
 ---

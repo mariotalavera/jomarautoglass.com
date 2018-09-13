@@ -1,7 +1,7 @@
 ---
 exclude: true
 layout: page
-title: Jomar - Cuestionario de Servicio
+title: Jomar Auto Glass - Cuestionario de Servicio
 permalink: /cuestionario/
 metadescription: Jomar Auto Glass. Cuestionario de servicio al cliente.
 ---

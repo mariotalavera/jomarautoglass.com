@@ -1,7 +1,7 @@
 ---
 exclude: true
 layout: page
-title: Jomar - Privacy
+title: Jomar Auto Glass - Privacy Policy
 permalink: /privacy/
 metadescription: Esta es la política de privacidad de la pagina de web de Jomar Auto Glass.
 ---

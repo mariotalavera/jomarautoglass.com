@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Jomar - Galeria De Trabajo
+title: Jomar Auto Glass - Galeria De Trabajo
 permalink: /galeria/
 metadescription: Galeria de trabajos recientes de cristales cambiados por Jomar Auto Glass en Puerto Rico.
 ---

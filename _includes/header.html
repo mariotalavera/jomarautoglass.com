@@ -1,6 +1,6 @@
 <div class="topnav" id="myTopnav">
 	{% for page in site.pages %} {% if page.title %} {% unless page.exclude %}
-	<a href="{{ page.url | prepend: site.baseurl }}" title="{{ page.title }}">{{ page.title | replace: 'Jomar - ','' | replace: 'Al Cliente','' | replace: 'De Trabajo',''  | replace: 'Acerca De','' }}</a>
+	<a href="{{ page.url | prepend: site.baseurl }}" title="{{ page.title }}">{{ page.title | replace: 'Jomar Auto Glass - ','' | replace: 'Al Cliente','' | replace: 'De Trabajo',''  | replace: 'Acerca De','' }}</a>
 	{% endunless %} {% endif %} {% endfor %}
 	&nbsp; <a href="tel:{{ site.phones-link }}" style="background-color: #FAFAFA;" title="Cita rápida"><img src="{{ "/assets/ico/phone.png" | prepend: site.baseurl }}" height="18" width="18" alt="Cita rápida" title="Cita rápida"> {{ site.phones }}</a>
 	<a href="javascript:void(0);" class="icon" onclick="myFunction()" title="Menu">

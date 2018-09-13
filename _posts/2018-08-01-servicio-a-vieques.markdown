@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Jomar - Servicio A Vieques"
+title:  "Jomar Auto Glass - Servicio A Vieques"
 date:   2018-08-01 00:00:00 -0500
 categories: News
 metadescription: Jomar Auto Glass da servicio a Vieques de cambio de cristales de carros.

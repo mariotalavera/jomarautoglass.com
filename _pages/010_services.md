@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Jomar - Servicios Al Cliente
+title: Jomar Auto Glass - Servicios Al Cliente
 permalink: /servicios/
 metadescription: Jomar Auto Glass ofrece servicio de cambio de cristales en Puerto Rico y Vieques. Con los mejores precios, servicio garantizado a domicilio.
 ---

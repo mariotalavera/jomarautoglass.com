@@ -1,7 +1,7 @@
 ---
 exclude: true
 layout: page
-title: Jomar - ¡Gracias!
+title: Jomar Auto Glass - ¡Gracias!
 permalink: /cuestionario_response/
 metadescription: Jomar Auto Glass. Respuesta de cuestionario.
 ---

@@ -1,7 +1,7 @@
 ---
 exclude: true
 layout: page
-title: Jomar - Áreas De Servicio
+title: Jomar Auto Glass - Áreas De Servicio
 permalink: /servicios_areas/
 metadescription: Jomar Auto Glass ofrece sus servicios de cristaleros a domicilio en estos pueblos.
 ---

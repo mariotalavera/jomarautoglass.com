@@ -3,7 +3,7 @@ layout: default
 metadescription: Cristales de carros a domicilio sirviendo Puerto Rico y Vieques. Servicio en Canovanas, Ceiba, Fajardo, Humacao, Juncos, Loiza, Luquillo, Rio Grande, Bayamon, Carolina, Isla Verde, Guaynabo, San Juan, Trujillo Alto.
 ---
 
-<h2>Jomar - Noticias</h2>
+<h2>Jomar Auto Glass - Noticias</h2>
 {% for post in site.posts %}
 		<time>
 			{% assign m = post.date | date: "%-m" %}
@@ -25,7 +25,7 @@ metadescription: Cristales de carros a domicilio sirviendo Puerto Rico y Vieques
 			{{ post.date | date: "%Y" }}
 		</time>
 
-		<h3><a href="{{ post.url | prepend: site.baseurl }}" title="{{ post.title }}">{{ post.title | replace: 'Jomar - ','' }}</a></h3>
+		<h3><a href="{{ post.url | prepend: site.baseurl }}" title="{{ post.title }}">{{ post.title | replace: 'Jomar Auto Glass - ','' }}</a></h3>
 {% endfor %}
 
 <p>Suscríbase por <a href="{{ "/feed.xml" | prepend: site.baseurl }}" title="RSS">RSS</a></p>

@@ -1,7 +1,7 @@
 ---
 exclude: true
 layout: page
-title: Jomar - Gracias por su información
+title: Jomar Auto Glass - Gracias por su información
 permalink: /cotizacion_response/
 metadescription: Jomar Auto Glass. Respuesta de cotizacion.
 ---
