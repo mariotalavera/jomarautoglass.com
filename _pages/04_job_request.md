@@ -60,6 +60,12 @@ metadescription: Jomar Auto Glass. Llene este formulario para recibir precio y c
 		</select>
 	</div>
 	<div>
+		<br/>¿Número de puertas?<br/>
+		<input type="radio" name="Numero_Puertas" value="Dos Puertas" style="width: 40px;">Dos
+		<input type="radio" name="Numero_Puertas" value="Cuatro Puertas" style="width: 40px;">Cuatro
+		<input type="checkbox" name="Hatchback" value="Hatchback " style="width: 40px;">Hatchback?<br>
+	</div>
+	<div>
 		<br/>¿Si escogió lado izquierdo o derecho, cual es su cristal roto?
 	</div>
 	<div class="row">
