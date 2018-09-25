@@ -2,8 +2,10 @@
 layout: page
 title: Jomar Auto Glass - Cotización De Trabajo
 permalink: /cotizacion/
-metadescription: Jomar Auto Glass. Llene este formulario para recibir precio y cita para su cambio de cristal de carro.
+metadescription: Jomar Auto Glass ofrece cambio de cristales para carros en Puerto Rico. Reemplazo de vidrios para autos. 
 ---
+
+Jomar Auto Glass ofrece cambio de cristales para carros en Puerto Rico.
 
 <form name="precioporpagina" id="precioporpagina" data-netlify="true" method="post" action="{{ site.baseurl }}/cotizacion_response/index.html">
 	<input type="hidden" name="data-netlify" value="true" />
@@ -28,6 +30,9 @@ metadescription: Jomar Auto Glass. Llene este formulario para recibir precio y c
 		<textarea name="Localizado" id="Localizado" style="width:90%; height:60px"></textarea>
 	</div>
 	</fieldset>
+
+	Jomar Auto Glass ofrece reemplazo de vidrios para autos y camiones. 
+
 	<fieldset>
 	<legend>Su Auto</legend>	
 	<div>
