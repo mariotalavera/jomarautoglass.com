@@ -31,7 +31,7 @@ Jomar Auto Glass ofrece cambio de cristales para carros en Puerto Rico.
 	</div>
 	</fieldset>
 
-	Jomar Auto Glass ofrece reemplazo de vidrios para autos y camiones. 
+	<br/>Jomar Auto Glass ofrece reemplazo de vidrios para autos y camiones. 
 
 	<fieldset>
 	<legend>Su Auto</legend>	
