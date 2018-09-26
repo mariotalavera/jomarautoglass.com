@@ -8,7 +8,8 @@ metadescription: Jomar Auto Glass ofrece servicio de cambio de cristales en Puer
 
 <h3>Cristales Para Autos</h3>
 
-Nuestros cristaleros tienen la mejor experiencia en toda la isla.<br/>
+Nuestros cristaleros tienen la mejor experiencia en reemplazo de cristales de autos. <br/> 
+Especializados en el área este de Puerto Rico.<br/>
 Aquí están nuestras <a href="{{ site.baseurl }}/news/2018/09/09/servicio-a-domicilio.html#service_areas" title="Areas De Servicio">áreas de servicio</a>. <br/>
 Servicio especializado a su vehículo.<br/>
 Se instalan cristales con sensores de lluvia y antenas de radio.<br/>
