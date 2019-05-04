@@ -5,7 +5,7 @@
 layout: home
 title: Jomar Auto Glass - Cristales De Carros Puerto Rico
 exclude: true
-metadescription: Jomar Auto Glass servicio de cristal de carro Puerto Rico y Vieques. Jomar cambia cristal roto en tu casa o trabajo. Servicio de cristal a talleres. Labor garantizada.
+metadescription: Jomar Auto Glass, servicio de cristal de carro Puerto Rico y Vieques. Jomar cambia cristal roto en tu casa o trabajo. Servicio a talleres. Labor garantizada.
 ---
 
 
