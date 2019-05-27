@@ -98,5 +98,5 @@ Jomar Auto Glass ofrece cambio de cristales para carros en Puerto Rico.
 	</div>
 </form>
 
-También, nos puede enviar una foto de su carro con el cristal roto a <a href="mailto:{{ site.email }}" title="{{ site.email }}">{{ site.email }}</a> con detalles. Pronto le devolveremos su mensaje.  <br/>
+También nos puede enviar una foto de su carro con el cristal roto a <a href="mailto:{{ site.email }}" title="{{ site.email }}">{{ site.email }}</a> con detalles. Pronto le devolveremos su mensaje.  <br/>
 Si prefiere, también nos puede llamar ahora al <a href="tel:{{ site.phones-link }}" title="{{ site.phones }}">{{ site.phones }}</a>.
