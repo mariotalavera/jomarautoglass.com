@@ -17,4 +17,6 @@ Si eres amigo de Jomar y estas interesado en aparecer en esta página, comunicat
 * Si no tenemos el producto que necesitas.
 
 * Si necesitas otro tipo de cristal, para tu hogar o negocio.<br>
-<a href="http://www.cristaleriaamigopr.com/" target="_new">Cristaleria Amigo</a>
+
+* Compañías de confianza para otros servicios.<br>
+<a href="https://macpainting.com?amigo=jomarautoglass.com" target="_new">Mac Painting Contrators</a> 
