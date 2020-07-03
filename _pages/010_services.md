@@ -10,7 +10,7 @@ metadescription: Jomar Auto Glass ofrece servicio de cambio de cristales en Puer
     <h3><a href="{{ site.baseurl }}/servicios_instalacion_cristales/index.html" title="Instalación De Cristales">Cristales De Autos</a></h3>
     <p>
       <a href="{{ site.baseurl }}/servicios_instalacion_cristales/index.html"><img src="/assets/pictures/workpic-3.png" alt="Jomar Auto Glass - Servicios" title="Cristales de auto originales y de reemplazo." width="300" height="200"></a><br/>
-      Cristales de auto originales y de reemplazo.
+      Cristales de auto originales y<br> de reemplazo.
     </p>
   </div>
   <div class="multicol">
