@@ -8,27 +8,6 @@ metadescription: Jomar Auto Glass ofrece sus servicios de cristaleros a domicili
 
 <h4>¡Un solo numero!  Llame al <a href="tel:{{ site.phones-link }}" title="{{ site.phones }}">{{ site.phones }}</a> para precio y cita rápida.</h4>
 
-<div class="ul-2-col">
-  <ul>
-    <li>Bayamón</li>
-    <li>Canóvanas </li>
-    <li>Carolina</li>
-    <li>Cataño</li>
-    <li>Ceiba</li>
-    <li>Fajardo</li>
-    <li>Guaynabo</li>
-    <li>Levittown</li>
-    <li>Loíza</li>
-    <li>Luquillo</li>
-    <li>Río Grande</li>
-    <li>San Juan</li>
-    <li>Toa Alta</li>
-    <li>Toa Baja</li>
-    <li>Trujillo Alto</li>
-    <li>Vieques</li>
-  </ul>
-</div>
-
 {% include service_areas.html %}
 
 <a href="{{ site.baseurl }}/servicios/index.html" title="Servicios Al Cliente">Servicios Al Cliente</a>
