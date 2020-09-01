@@ -29,4 +29,6 @@ metadescription: Jomar Auto Glass ofrece sus servicios de cristaleros a domicili
   </ul>
 </div>
 
+{% include service_areas.html %}
+
 <a href="{{ site.baseurl }}/servicios/index.html" title="Servicios Al Cliente">Servicios Al Cliente</a>

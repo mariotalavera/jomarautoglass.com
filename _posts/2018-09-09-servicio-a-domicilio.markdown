@@ -15,28 +15,8 @@ Nada más llame al <a href="tel:{{ site.phones-link }}" title="{{ site.phones }}
 Nuestro servicio a domicilio esta garantizado, con precio competitivo y sin la inconveniencia de salir de su casa o perder tiempo de su trabajo.
 
 <h3><a name="service_areas">Areas De Servicio</a></h3>
-<div class="multicol-container">
-	<div class="multicol">
-		Bayamón<br/>
-		Canóvanas <br/>
-		Carolina<br/>
-		Cataño<br/>
-		Ceiba<br/>
-		Fajardo<br/>
-		Guaynabo<br/>
-		Levittown
-	</div>
-	<div class="multicol">
-		Loíza<br/>
-		Luquillo<br/>
-		Río Grande<br/>
-		San Juan<br/>
-		Toa Alta<br/>
-		Toa Baja<br/>
-		Trujillo Alto<br/>
-		Vieques<br/><br/>
-	</div>
-</div>
+
+{% include service_areas.html %}
 
 {% include quote_or_call.html %}
 
