@@ -5,7 +5,17 @@ permalink: /galeria/
 metadescription: Galeria de trabajos recientes de cristales cambiados por Jomar Auto Glass en Puerto Rico.
 ---
 
-{% include instagram.html clientId="0ce2a34abd8140fc8d1fd354775b821d" userId="8222404801" accessToken="8222404801.0ce2a34.33989eb15bb24e5a84083746f9135c71" %}
+<!-- Place <div> tag where you want the feed to appear -->
+<div id="curator-feed-default-feed-layout"><a href="https://curator.io" target="_blank" class="crt-logo crt-tag">Powered by Curator.io</a></div>
+<!-- The Javascript can be moved to the end of the html page before the </body> tag -->
+<script type="text/javascript">
+/* curator-feed-default-feed-layout */
+(function(){
+var i, e, d = document, s = "script";i = d.createElement("script");i.async = 1;
+i.src = "https://cdn.curator.io/published/cc4826ef-d33e-4ec7-adc1-8bca382814bc.js";
+e = d.getElementsByTagName(s)[0];e.parentNode.insertBefore(i, e);
+})();
+</script>
 
 <!--
 | Username | User Id | Client Id | Access Token |
