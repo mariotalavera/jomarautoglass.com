@@ -14,14 +14,23 @@ Aquí están nuestras <a href="{{ site.baseurl }}/news/2018/09/09/servicio-a-dom
 
 <div class="multicol-container" align="center">
 	<div class="multicol">
-		<img src="/assets/pictures/jomar_equipo_pesado_1.jpg" width="75%" alt="equipo pesado" title="equipo pesado" border="1">
+		<img src="/assets/pictures/jomar_equipo_pesado_6.jpg" width="75%" alt="equipo pesado" title="equipo pesado" border="1">
 	</div>
 	<div class="multicol">
-		<img src="/assets/pictures/jomar_equipo_pesado_2.jpg" width="75%" alt="equipo pesado" title="equipo pesado" border="1">
+		<img src="/assets/pictures/jomar_equipo_pesado_1.jpg" width="75%" alt="equipo pesado" title="equipo pesado" border="1">
 	</div>
 </div>
 
 {% include quote_or_call.html %}
+
+<div class="multicol-container" align="center">
+	<div class="multicol">
+		<img src="/assets/pictures/jomar_equipo_pesado_2.jpg" width="75%" alt="equipo pesado" title="equipo pesado" border="1">
+	</div>
+	<div class="multicol">
+		<img src="/assets/pictures/jomar_equipo_pesado_7.jpg" width="75%" alt="equipo pesado" title="equipo pesado" border="1">
+	</div>
+</div>
 
 <div class="multicol-container" align="center">
 	<div class="multicol">
