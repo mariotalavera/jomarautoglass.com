@@ -9,7 +9,7 @@ Jomar Auto Glass ofrece cambio de cristales para carros en Puerto Rico.
 
 <form name="precioporpagina" id="precioporpagina" onsubmit="myButton.disabled = true; return true;" data-netlify="true" method="post" action="{{ site.baseurl }}/cotizacion_response/index.html">
 	<input type="hidden" name="data-netlify" value="true" />
-	<input id="Fecha" type="hidden" name="Fecha" size=50 disabled />
+	<input type="hidden" name="Fecha" id="Fecha" size=50 disabled />
 
 	<fieldset>
 	<legend>Su información</legend>	
