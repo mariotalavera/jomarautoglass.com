@@ -104,5 +104,19 @@ También nos puede enviar una foto de su carro con el cristal roto a <a href="ma
 Si prefiere, también nos puede llamar ahora al <a href="tel:{{ site.phones-link }}" title="{{ site.phones }}">{{ site.phones }}</a>.
 
 <script type="text/javascript">
-  document.getElementById('Fecha').value = Date();
+function getDate()
+{
+    var today = new Date();
+    var dd = today.getDate();
+    var mm = today.getMonth()+1; //January is 0!
+    var yyyy = today.getFullYear();
+    if(dd<10){dd='0'+dd} if(mm<10){mm='0'+mm}
+    today = dd+"/"+mm+"/"+yyyy;
+
+    document.getElementById("Fecha").value = today;
+}
+
+//call getDate() when loading the page
+getDate();
 </script>
+
