@@ -1,28 +1,57 @@
-<footer>
+<footer class="bg-primary text-white mt-16">
 	{% if page.title != 'Privacy' %}
-	<div class="row">
-	  <div class="column left">
-	    <p>
-	    	<b>{{ site.title | replace: ', Puerto Rico - Cristales De Carros',''}}</b> <br/>
-	    	{{ site.address }}
-	    </p>
-	  </div>
-	  <div class="column middle">
-	    <p>
-	    	{{ site.description }} <br/>
-	    	<a href="{{ site.baseurl }}/privacy/index.html" title="Privacy Policy">Privacy Policy</a><br>
-	    	<a href="{{ site.baseurl }}/friends/index.html" title="Amigos De Jomar">Amigos De Jomar</a>
-	    </p>
-	  </div>
-	  <div class="column right">
-	    <p>
-	    	<b>Contacto</b> <br/>
-			<a href="mailto:{{ site.email }}" title="Enviar correo a {{ site.email }}">{{ site.email }}</a>  <br/>
-	    	<a href="tel:{{ site.phones-link }}" title="Llamarnos a {{ site.phones }}">{{ site.phones }}</a> <br/> <br/>
-	    	<a href="https://www.instagram.com/jomarautoglass/" target="_blank" title="Buscanos en Instagram"><img src="{{ "/assets/share/instagram.svg" | prepend: site.baseurl }}" height="42" width="42" alt="Buscanos en Instagram" title="Buscanos en Instagram"></a>
-	    	<a href="https://www.facebook.com/jomarautoglass" target="_blank" title="Buscanos en Facebook"><img src="{{ "/assets/share/facebook.svg" | prepend: site.baseurl }}" height="42" width="42" alt="Buscanos en Facebook" title="Buscanos en Facebook"></a>
-	    </p>
-	  </div>
+	<div class="max-w-7xl mx-auto px-4 py-16">
+		<div class="grid grid-cols-1 md:grid-cols-3 gap-12 mb-8">
+			<!-- Company Info -->
+			<div class="space-y-3">
+				<h3 class="font-heading font-bold text-xl text-accent mb-4">{{ site.title | replace: ', Puerto Rico - Cristales De Carros','' }}</h3>
+				<p class="text-slate-300 text-sm leading-relaxed">
+					{{ site.address }}
+				</p>
+			</div>
+
+			<!-- About & Links -->
+			<div class="space-y-3">
+				<h3 class="font-heading font-bold text-xl text-accent mb-4">Información</h3>
+				<p class="text-slate-300 text-sm leading-relaxed">
+					{{ site.description }}
+				</p>
+				<div class="pt-3 space-y-2">
+					<a href="{{ site.baseurl }}/privacy/index.html" class="text-slate-300 hover:text-accent transition text-sm block" title="Privacy Policy">Privacy Policy</a>
+					<a href="{{ site.baseurl }}/friends/index.html" class="text-slate-300 hover:text-accent transition text-sm block" title="Amigos De Jomar">Amigos De Jomar</a>
+				</div>
+			</div>
+
+			<!-- Contact & Social -->
+			<div class="space-y-3">
+				<h3 class="font-heading font-bold text-xl text-accent mb-4">Contacto</h3>
+				<div class="text-slate-300 text-sm space-y-3">
+					<div>
+						<p class="font-semibold text-white mb-1">Email</p>
+						<a href="mailto:{{ site.email }}" class="text-accent hover:text-red-400 transition" title="Enviar correo">{{ site.email }}</a>
+					</div>
+					<div>
+						<p class="font-semibold text-white mb-1">Teléfono</p>
+						<a href="tel:{{ site.phones-link }}" class="text-accent hover:text-red-400 transition" title="Llamar">{{ site.phones }}</a>
+					</div>
+				</div>
+				<div class="flex gap-4 mt-6 pt-3 border-t border-slate-700">
+					<a href="https://www.instagram.com/jomarautoglass/" target="_blank" class="text-slate-300 hover:text-accent transition" title="Instagram">
+						<img src="{{ "/assets/share/instagram.svg" | prepend: site.baseurl }}" height="28" width="28" alt="Instagram" class="opacity-90 hover:opacity-100 transition">
+					</a>
+					<a href="https://www.facebook.com/jomarautoglass" target="_blank" class="text-slate-300 hover:text-accent transition" title="Facebook">
+						<img src="{{ "/assets/share/facebook.svg" | prepend: site.baseurl }}" height="28" width="28" alt="Facebook" class="opacity-90 hover:opacity-100 transition">
+					</a>
+				</div>
+			</div>
+		</div>
+
+		<!-- Divider & Copyright -->
+		<div class="border-t border-slate-700 pt-8">
+			<p class="text-center text-xs text-slate-400">
+				&copy; {{ 'now' | date: "%Y" }} {{ site.title }}. All rights reserved.
+			</p>
+		</div>
 	</div>
 	{% endif %}
 </footer>

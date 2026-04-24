@@ -33,7 +33,32 @@
 	
 	<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0"/>
 
-	<link rel='stylesheet' type='text/css' href="{{ "/css/main.css" | prepend: site.baseurl }}">		
+	<!-- Tailwind CSS Play CDN -->
+	<script src="https://cdn.tailwindcss.com"></script>
+	<script>
+		tailwind.config = {
+			theme: {
+				extend: {
+					colors: {
+						primary: { DEFAULT: '#0F172A', light: '#1E293B' },
+						accent: '#DC2626',
+						slate50: '#F1F5F9',
+					},
+					fontFamily: {
+						heading: ['Oswald', 'sans-serif'],
+						body: ['Inter', 'sans-serif'],
+					},
+				}
+			}
+		}
+	</script>
+
+	<!-- Google Fonts: Oswald + Inter -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Oswald:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+	<link rel='stylesheet' type='text/css' href="{{ "/css/main.css" | prepend: site.baseurl }}">
 
 	<meta name="google-site-verification" content="3wIvTWNZsM1g2x4PH-QCQu7N2_AxC6TLjNCcFPopvz4" />
 

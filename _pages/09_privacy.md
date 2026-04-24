@@ -6,7 +6,14 @@ permalink: /privacy/
 metadescription: Esta es la política de privacidad de la pagina de web de Jomar Auto Glass.
 ---
 
-<p>Effective date: July 09, 2018</p>
+<div class="bg-slate50 rounded-lg p-8 my-8">
+  <p class="text-slate-600 text-sm mb-4">
+    <strong>Effective date:</strong> July 09, 2018
+  </p>
+  <p class="text-slate-700 leading-relaxed">
+    At Jomar Auto Glass, we are committed to protecting your privacy and ensuring transparency in how we collect, use, and protect your personal information. This Privacy Policy explains our practices regarding data collection and how we safeguard your information.
+  </p>
+</div>
 
 
 <p>Jomar Auto Glass ("us", "we", or "our") operates the https://jomarautoglass.com website.</p>
@@ -108,14 +115,34 @@ metadescription: Esta es la política de privacidad de la pagina de web de Jomar
 <p>You are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted on this page.</p>
 
 
-<h2>Contact Us</h2>
-<p>If you have any questions about this Privacy Policy, please contact us:</p>
-<ul>
-<li>By email <a href="mailto:{{ site.email }}" title="{{ site.email }}">{{ site.email }}</a></li>
-<li>By visiting this page on our website <a href="{{ site.baseurl }}/privacy/index.html" title="Privacy Policy">Privacy Policy</a></li>
-<li>By phone number <a href="tel:{{ site.phones-link }}" title="{{ site.phones }}">{{ site.phones }}</a></li>
-<li>By mail <br/>Jomar Auto Glass <br/>{{ site.address }}</li>
-</ul>                                
-<br/><br/><br/><br/><br/>
+---
+
+## Contact Us
+
+<div class="bg-slate50 rounded-lg p-8 my-12">
+  <p class="text-slate-700 mb-6">
+    If you have any questions about this Privacy Policy, please contact us:
+  </p>
+  
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+    <div>
+      <h4 class="font-heading font-bold text-primary mb-2">📧 Email</h4>
+      <a href="mailto:{{ site.email }}" class="text-accent hover:underline font-semibold">{{ site.email }}</a>
+    </div>
+    
+    <div>
+      <h4 class="font-heading font-bold text-primary mb-2">📞 Phone</h4>
+      <a href="tel:{{ site.phones-link }}" class="text-accent hover:underline font-semibold">{{ site.phones }}</a>
+    </div>
+    
+    <div>
+      <h4 class="font-heading font-bold text-primary mb-2">✉️ Mail</h4>
+      <p class="text-slate-600 text-sm">
+        Jomar Auto Glass<br/>
+        {{ site.address }}
+      </p>
+    </div>
+  </div>
+</div>
 
 

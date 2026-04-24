@@ -1,32 +1,63 @@
 ---
-layout: default
-metadescription: Cristales de carros a domicilio sirviendo Puerto Rico y Vieques. Servicio en Canovanas, Ceiba, Fajardo, Humacao, Juncos, Loiza, Luquillo, Rio Grande, Bayamon, Carolina, Isla Verde, Guaynabo, San Juan, Trujillo Alto.
+layout: page
+metadescription: Noticias y actualizaciones de Jomar Auto Glass
 title: Jomar Auto Glass - Noticias
+permalink: /noticias/
 ---
 
-<h2>Jomar Auto Glass - Noticias</h2>
+<div class="space-y-6 my-8">
 {% for post in site.posts %}
-		<time>
-			{% assign m = post.date | date: "%-m" %}
-			{{ post.date | date: "%-d" }} de 
-			{% case m %}
-			  {% when '1' %}enero
-			  {% when '2' %}febrero
-			  {% when '3' %}marzo
-			  {% when '4' %}abril
-			  {% when '5' %}mayo
-			  {% when '6' %}junio
-			  {% when '7' %}julio
-			  {% when '8' %}agosto
-			  {% when '9' %}septiembre
-			  {% when '10' %}octubre
-			  {% when '11' %}noviembre
-			  {% when '12' %}diciembre
-			{% endcase %} del 
-			{{ post.date | date: "%Y" }}
-		</time>
+  <a href="{{ post.url | prepend: site.baseurl }}" class="group block">
+    <div class="bg-white rounded-lg shadow-sm hover:shadow-md transition border border-slate-200">
+      <div class="p-6">
+        <!-- Date -->
+        <div class="text-accent font-semibold text-sm mb-2">
+          {% assign m = post.date | date: "%-m" %}
+          {{ post.date | date: "%-d" }} de
+          {% case m %}
+            {% when '1' %}enero
+            {% when '2' %}febrero
+            {% when '3' %}marzo
+            {% when '4' %}abril
+            {% when '5' %}mayo
+            {% when '6' %}junio
+            {% when '7' %}julio
+            {% when '8' %}agosto
+            {% when '9' %}septiembre
+            {% when '10' %}octubre
+            {% when '11' %}noviembre
+            {% when '12' %}diciembre
+          {% endcase %} del
+          {{ post.date | date: "%Y" }}
+        </div>
 
-		<h3><a href="{{ post.url | prepend: site.baseurl }}" title="{{ post.title }}">{{ post.title | replace: 'Jomar Auto Glass - ','' }}</a></h3>
+        <!-- Title -->
+        <h2 class="font-heading font-bold text-2xl text-primary mb-3 group-hover:text-accent transition">
+          {{ post.title | replace: 'Jomar Auto Glass - ','' }}
+        </h2>
+
+        <!-- Excerpt -->
+        <p class="text-slate-600 text-base leading-relaxed">
+          {{ post.excerpt | strip_html | truncatewords: 30 }}
+        </p>
+
+        <!-- Read More -->
+        <div class="mt-4 pt-4 border-t border-slate-200">
+          <span class="text-accent font-semibold text-sm group-hover:underline">Leer más →</span>
+        </div>
+      </div>
+    </div>
+  </a>
 {% endfor %}
+</div>
 
-<p>Suscríbase por <a href="{{ "/feed.xml" | prepend: site.baseurl }}" title="RSS">RSS</a></p>
+<!-- Subscribe section -->
+<div class="bg-slate50 rounded-lg p-8 mt-12 text-center">
+  <h3 class="font-heading font-bold text-2xl text-primary mb-3">Mantente Informado</h3>
+  <p class="text-slate-600 mb-6">
+    Suscríbete a nuestro feed RSS para recibir actualizaciones sobre nuestros servicios y noticias.
+  </p>
+  <a href="/feed.xml" class="inline-block bg-accent hover:bg-red-700 text-white font-heading font-bold py-3 px-8 rounded-lg transition uppercase tracking-wide">
+    <i class="fa fa-rss mr-2"></i> Suscribirse por RSS
+  </a>
+</div>

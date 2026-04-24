@@ -1,40 +1,20 @@
-// ONLY EDIT THIS FILE WITH JEKYLL OFF.
-// https://www.taniarascia.com/make-a-static-website-with-jekyll/
-$content-width: 800px;
+// New Bold Professional Palette
+$primary: #0F172A;
+$accent: #DC2626;
+$slate50: #F1F5F9;
+$font-body: 'Inter', sans-serif;
+$font-heading: 'Oswald', sans-serif;
+$font-color: #1E293B;
+$muted-color: #64748B;
+$white: #FFFFFF;
 
-// Text on mouse over tab
-$main: #55ACEE;
-$font-style: 'Open Sans', sans-serif;
+// For backwards compatibility with form styles
+$content-width: 100%;
+$link-color: $accent;
+$link-hover-color: darken($accent, 10%);
+$heading-font-color: $primary;
+$lightfontcolor: $white;
 
-// text color
-$font-color: #2B2B2B;
-
-// text link color
-$link-color: #2A8EFF; 
-// #DE1B1B;
-$link-hover-color: $main;
-$heading-font: 'Muli', sans-serif;
-
-// titles color
-$heading-font-color: #2A8EFF; 
-// #DE1B1B;
-
-// background
-$backgroundcolor: #FAFAFA;
-$light: #E7EDF4;
-
-// header and tabs mouse over
-$header:  #17202A;
-
-*,
-*::before,
-*::after {
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
+* {
 	box-sizing: border-box;
 }
-
-// color font againts dark background
-$lightfontcolor: #FFFFFF;
-
-$alttablerowcolor: #E6FAFF;

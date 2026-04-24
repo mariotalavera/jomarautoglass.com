@@ -6,6 +6,17 @@ permalink: /cuestionario/
 metadescription: Jomar Auto Glass. Cuestionario de servicio al cliente.
 ---
 
+## Tu Opinión Nos Importa
+
+<div class="bg-slate50 rounded-lg p-8 my-8">
+  <p class="text-lg text-slate-700 leading-relaxed mb-4">
+    En Jomar Auto Glass valoramos tu opinión. Este breve cuestionario nos ayuda a entender mejor cómo servimos a nuestros clientes y cómo podemos mejorar.
+  </p>
+  <p class="text-slate-600">
+    Tu retroalimentación es importante para nosotros. Completa este formulario y ayúdanos a ser mejor.
+  </p>
+</div>
+
 <form name="cuestionariodeservicio" id="cuestionariodeservicio" data-netlify="true" method="post" action="{{ site.baseurl }}/cuestionario_response/index.html">
 	<input type="hidden" name="data-netlify" value="true" />
 	<fieldset>
@@ -46,7 +57,7 @@ metadescription: Jomar Auto Glass. Cuestionario de servicio al cliente.
 		<input type="tel" name="Telefono" />
 	</div>
 	</fieldset>
-	<div class="button" align="center"><br/>
-		<button type="submit" value="submit" class="myButton">Enviar</button>
+	<div class="flex justify-center mt-8">
+		<button type="submit" value="submit" class="bg-accent hover:bg-red-700 text-white font-heading font-bold py-3 px-8 rounded-lg transition uppercase tracking-wide">Enviar Cuestionario</button>
 	</div>
 </form>

@@ -3,30 +3,35 @@ layout: default
 title: Jomar Auto Glass
 ---
 
-<h2>{{ page.title }}</h2>
-<time>
-<!-- {{ page.date | date: "%b %-d, %Y" }} -->
+<div class="bg-gradient-to-r from-primary to-primary/80 text-white py-6 mb-8">
+	<div class="max-w-4xl mx-auto px-4">
+		<h1 class="font-heading font-bold text-3xl md:text-4xl mb-3 text-white" style="color: white !important;">
+			{{ page.title }}
+		</h1>
+		<time class="text-slate-300 text-sm">
+			{% assign m = page.date | date: "%-m" %}
+			{{ page.date | date: "%-d" }} de
+			{% case m %}
+			  {% when '1' %}enero
+			  {% when '2' %}febrero
+			  {% when '3' %}marzo
+			  {% when '4' %}abril
+			  {% when '5' %}mayo
+			  {% when '6' %}junio
+			  {% when '7' %}julio
+			  {% when '8' %}agosto
+			  {% when '9' %}septiembre
+			  {% when '10' %}octubre
+			  {% when '11' %}noviembre
+			  {% when '12' %}diciembre
+			{% endcase %} del
+			{{ page.date | date: "%Y" }}
+			{% if page.author %} • {{ page.author }}{% endif %}
+		</time>
+		<div class="w-16 h-1 bg-accent rounded mt-3"></div>
+	</div>
+</div>
 
-<!-- Whitespace added for readability -->
-{% assign m = page.date | date: "%-m" %}
-{{ page.date | date: "%-d" }} de 
-{% case m %}
-  {% when '1' %}enero
-  {% when '2' %}febrero
-  {% when '3' %}marzo
-  {% when '4' %}abril
-  {% when '5' %}mayo
-  {% when '6' %}junio
-  {% when '7' %}julio
-  {% when '8' %}agosto
-  {% when '9' %}septiembre
-  {% when '10' %}octubre
-  {% when '11' %}noviembre
-  {% when '12' %}diciembre
-{% endcase %} del 
-{{ page.date | date: "%Y" }}
-
-
-{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</time>
-
-{{ content }}
+<div class="max-w-4xl mx-auto px-4 py-8">
+	{{ content }}
+</div>

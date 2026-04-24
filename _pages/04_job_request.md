@@ -5,7 +5,16 @@ permalink: /cotizacion/
 metadescription: Jomar Auto Glass ofrece cambio de cristales para carros en Puerto Rico. Reemplazo de vidrios para autos. 
 ---
 
-Jomar Auto Glass ofrece cambio de cristales para carros en Puerto Rico.
+## Solicita Tu Cotización
+
+<div class="bg-slate50 rounded-lg p-8 my-8">
+  <p class="text-lg text-slate-700 leading-relaxed mb-4">
+    Jomar Auto Glass ofrece cambio de cristales para carros en Puerto Rico con los mejores precios y servicio garantizado. Completa el formulario a continuación para recibir una cotización profesional.
+  </p>
+  <p class="text-slate-600">
+    Te responderemos pronto con opciones de precio, disponibilidad de citas y detalles sobre nuestros servicios. También puedes llamar directamente o enviarnos una foto de tu vehículo.
+  </p>
+</div>
 
 <form name="precioporpagina" id="precioporpagina" onsubmit="myButton.disabled = true; return true;" data-netlify="true" method="post" action="{{ site.baseurl }}/cotizacion_response/index.html">
 	<input type="hidden" name="data-netlify" value="true" />
@@ -94,14 +103,43 @@ Jomar Auto Glass ofrece cambio de cristales para carros en Puerto Rico.
 		<textarea name="Informacion_Adicional" id="Informacion_Adicional" style="width:90%; height:60px"></textarea>
 	</div>
 	</fieldset>
-	<div class="button" align="center">
+	<div class="flex justify-center mt-8">
 		<span class="error"><p id="Any_error"></p></span>
-		<button type="submit" value="submit" name="myButton" class="myButton">Enviar</button>
+		<button type="submit" value="submit" name="myButton" class="bg-accent hover:bg-red-700 text-white font-heading font-bold py-3 px-8 rounded-lg transition uppercase tracking-wide">Enviar Cotización</button>
 	</div>
 </form>
 
-También nos puede enviar una foto de su carro con el cristal roto a <a href="mailto:{{ site.email }}" title="{{ site.email }}">{{ site.email }}</a> con detalles. Pronto le devolveremos su mensaje.  <br/>
-Si prefiere, también nos puede llamar ahora al <a href="tel:{{ site.phones-link }}" title="{{ site.phones }}">{{ site.phones }}</a>.
+---
+
+## Otras Formas De Contactarnos
+
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8 my-12">
+  <div class="bg-white rounded-lg shadow-sm border border-slate-200 p-6">
+    <h3 class="font-heading font-bold text-lg text-primary mb-3">📧 Por Email</h3>
+    <p class="text-slate-600 mb-4">
+      Envía una foto de tu carro con el cristal roto a:
+    </p>
+    <a href="mailto:{{ site.email }}" class="inline-block bg-accent hover:bg-red-700 text-white font-heading font-bold py-2 px-4 rounded transition text-sm">
+      {{ site.email }}
+    </a>
+    <p class="text-sm text-slate-500 mt-3">
+      Pronto te devolveremos tu mensaje con detalles.
+    </p>
+  </div>
+
+  <div class="bg-white rounded-lg shadow-sm border border-slate-200 p-6">
+    <h3 class="font-heading font-bold text-lg text-primary mb-3">📞 Por Teléfono</h3>
+    <p class="text-slate-600 mb-4">
+      Llama directamente para hablar con nuestro equipo:
+    </p>
+    <a href="tel:{{ site.phones-link }}" class="inline-block bg-accent hover:bg-red-700 text-white font-heading font-bold py-2 px-4 rounded transition text-sm">
+      {{ site.phones }}
+    </a>
+    <p class="text-sm text-slate-500 mt-3">
+      Disponibles para responder todas tus preguntas.
+    </p>
+  </div>
+</div>
 
 <script type="text/javascript">
 function getDate()
